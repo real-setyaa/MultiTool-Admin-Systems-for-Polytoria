@@ -1,24 +1,24 @@
 # MultiTool Admin System for Polytoria 2.0
 
-## DOWNLOADS
-
-### Github Repository
-
-**YOU ARE HERE**
-
-### Polytoria Model
-#### Google Drive
-https://drive.google.com/file/d/1j05-yxRygmJMRVkp9GjI-c1iBRR-859Z/view?usp=sharing
-#### Polytoria Forums
-https://polytoria.com/forum/post/1924703?highlight=1924704
-
 ## SETUP
 
-### Setting Up MultiTool
-**SETUP FROM THE GITHUB REPOSITORY (HERE)**
+### Downloading and Inserting MultiTool
+**From the PTMD File (Main, may not be completely up-to-date)**
+ - Navigate to the Releases folder on the repo main page.
+ - Find and download the most up-to-date version of MultiTool from the PTMD files (MTAS#.#.#.PTMD)
+ - Enter the Polytoria 2.0 Creator
+ - Drag and drop the PTMD file, or select Model>Import then the PTMD file
+ - Unlink and ungroup the model
+ - Drag the scripts *AdminSettings.luau* and *AdminParser.server.luau* into the ScriptService under World
+ - Finish MultiTool setup below
 
-**SETUP FROM THE POLYTORIA MODEL FILE (FOUND ABOVE)**
-To setup MultiTool, simply unlink and ungroup the model, then place AdminParser and AdminSettings into ScriptService. README can be discarded.
+**From the Raw Script Files (More advanced, mainly for contributors but is more likely to be an up-to-date version)**
+ - Navigate to the Raw Files folder
+ - Open the two files, *AdminSettings.luau* and *AdminParser.server.luau*
+ - Open the Polytoria 2.0 Creator
+ - Create two scripts in Script Service, a ModuleScript named "AdminSettings.luau" and a ServerScript named "AdminParser.server.luau"
+ - Copy the contents from each file on the repo to its same named file in your Polytoria Creator
+ - Finish MultiTool setup below
 
 ### Configuring Multitool
 
