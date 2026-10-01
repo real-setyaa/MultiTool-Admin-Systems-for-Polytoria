@@ -11,7 +11,7 @@ Chat:BroadcastMessage("MULTITOOL INITIALIZED")
 
 Chat.NewChatMessage:Connect(function(sender, message)
 	print("MULTITOOL PARSER :: MESSAGE CAUGHT")
-	if message == ";help" then
+	if message == SETTINGS.Prefix .. "help" then
 		for i,j in SETTINGS.Commands do
 			print(j["desc"])
 		end
